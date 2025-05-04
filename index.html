@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LensFlare | Photography Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">LensFlare</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="burger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <section class="hero" id="home">
+        <div class="hero-text">
+            <h1>Capturing Life's Moments</h1>
+            <p>Professional photography for weddings, portraits, and events.</p>
+            <a href="#contact" class="btn">Book a Session</a>
+        </div>
+    </section>
+
+    <section class="gallery" id="gallery">
+        <h2>My Work</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="images/gallery-1.jpg" alt="Wedding Photography">
+                <div class="overlay">
+                    <p>Wedding Photography</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/gallery-2.jpg" alt="Portrait">
+                <div class="overlay">
+                    <p>Portrait</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/gallery-3.jpg" alt="Nature">
+                <div class="overlay">
+                    <p>Nature</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/gallery-4.jpg" alt="Urban">
+                <div class="overlay">
+                    <p>Urban</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-content">
+            <h2>About Me</h2>
+            <div class="about-flex">
+                <div class="about-text">
+                    <p>Hi, I'm <strong>Mukul Sharma</strong> — a storyteller who speaks through light, shadows, and fleeting moments. I don’t just take photos; I preserve emotions, turning ordinary instants into timeless memories.</p>
+                    
+                    <p>It all began when I picked up my first camera at 16 to capture the vibrant streets of Delhi. What started as a hobby soon became a passionate profession. Today, I’ve had the privilege of photographing <strong>200+ weddings</strong>, <strong>50+ destination shoots</strong>, and collaborating with brands like <em>Vogue India</em> and <em>Taj Hotels.</em> I believe in <strong>authenticity over perfection</strong>. Whether it’s the unscripted laughter at a wedding or the raw beauty of a Himalayan sunrise, I aim to capture life as it unfolds — candid, real, and breathtaking.</p>
+
+                    <div class="signature">
+                        <p>— Mukul Sharma</p>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Get In Touch</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message"></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+        </div>
+        <p>&copy; 2025 LensFlare Photography. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        const burger = document.querySelector('.burger');
+        const navLinks = document.querySelector('.nav-links');
+
+        burger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
