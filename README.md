@@ -2,7 +2,7 @@
 
 A **fully responsive** photography portfolio landing page built with pure HTML5 and CSS3, designed to showcase my work as a professional photographer.
 
-🔗 **Live Website:** [View Live Site](https://your-username.github.io/photography-portfolio)
+🔗 **Live Website:** [View Live Site](https://mukulsharma001.github.io/Octanet-Task-1-Landing-Page/)
 
 ## ✨ Features
 
